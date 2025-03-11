@@ -5,8 +5,9 @@ import Page404 from "../pages/page 404/Page404";
 function Routes() {
   return (
     <Switch>
-      <Route exact path="/" component={Login} />
-      <Route  component={Page404} />
+      <Route path="/login" component={Login} />
+      <Route path="/asdsd" component={Page404} />
+      <Route path="/" />
     </Switch>
   );
 }
